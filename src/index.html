@@ -5,9 +5,30 @@
   <meta charset="utf-8">
   <title>Analizador de texto</title>
   <link rel="stylesheet" href="style.css" />
+  
 </head>
 
 <body>
-  <script src="index.js" type="module"></script>
+  <header>
+    <h1>Analizador de Texto</h1>
+  </header>
+  <ul>
+    <li data-testid="character-count" >Carácteres: </li>
+    <li data-testid="character-no-spaces-count" >Carácteres Sin Espacio: </li>
+    <li data-testid="word-count">Palabras: </li>
+    <li data-testid="number-count" >Números: </li>
+    <li data-testid="number-sum" >Suma Números: </li>
+    <li data-testid="word-lenght-average" >Promedio Longitud: </li>
+  </ul>
+  <textarea name="user-point" cols="30" rows="10" onkeyup="getText();"></textarea>
+  <br>
+  <div id="vista"></div>
+  <button id="reset-button">Limpiar Métricas</button>
+  <footer>
+    <p>
+      Autora: Sandra Milena Pacheco Rodríguez
+    </p>          
+  </footer>
+  <script src="index.js" ></script>
 </body>
 </html>
