@@ -36,7 +36,7 @@ const analyzer = {
       return numberCount.length
     }
     else{
-      return 0;
+      return 0; 
     }
   },
   getNumberSum: (text) => {

@@ -1,6 +1,6 @@
 Analizador de texto
 
-![Imagen principal](https://github.com/Laboratoria/curriculum/assets/92090/2b45f653-69a5-4282-a65c-d34125c36113)
+![Imagen principal](/pantallaInicial.jpg)
 
 Índice
 
