@@ -1,4 +1,4 @@
-Analizador de texto
+## Analizador de texto
 
 ![Imagen principal](/pantallaInicial.jpg)
 
@@ -15,14 +15,14 @@ Analizador de texto
 
 ***
 
-1. Consideraciones generales
+## 1. Consideraciones generales
 
 * Este proyecto se desarrolló de manera individual.
 * El rango de tiempo estimado para completar el proyecto fue de 3 Sprints.
 * Este es el primer proyecto que se desarrolla en en el Bootcamp de Desarrollo Web de Laboratoria cohort DEV-013.
 2. Preámbulo
 
-![Imagen principal](https://github.com/Laboratoria/curriculum/assets/92090/2b45f653-69a5-4282-a65c-d34125c36113) 
+![Imagen principal](/Animation.gif) 
 Un analizador de texto es una aplicación para extraer información útil de un
 texto utilizando diversas técnicas, como el procesamiento del lenguaje
 natural (NLP), el aprendizaje automático (ML) y el análisis estadístico.
@@ -41,14 +41,14 @@ tomar decisiones informadas y sacar conclusiones significativas.
 Mediante el uso de estas herramientas de análisis, las usuarias pueden
 obtener una comprensión más profunda de los textos.
 
-3. Resumen del proyecto
+## 2. Resumen del proyecto
 
 En este proyecto se creo una aplicación web que servirá para que una usuaria
 pueda analizar un texto en el navegador mostrando una serie de indicadores y
 métricas específicas sobre caracteres, letras, números, etc. Que hayan sido
 enviadas como "input" por ella. Se construyó utilizando herramientas de HTML, CSS y JavaScript.
 
-4. Funcionalidades
+2.1 Funcionalidades
 
 El listado de funcionalidades es el siguiente:
 
@@ -74,12 +74,12 @@ resultado en tiempo real a medida que la usuaria escribe su texto:
     - **Longitud media de las palabras**: la aplicación calcula la
     longitud media de las palabras en el texto de entrada y mostrársela a la usuaria.
 
-3. La aplicación permite limpiar el contenido de la caja de texto haciendo
+2.2 La aplicación permite limpiar el contenido de la caja de texto haciendo
 clic en un botón.
 
 ![Text analyzer demo](https://github-production-user-asset-6210df.s3.amazonaws.com/12631491/240650556-988dcd6f-bc46-473b-894c-888a66c9fe2d.gif "Text analyzer demo")----------------------
 
-5. Boilerplate
+2.3 Boilerplate
 
 El boilerplate contiene la siguiente estructura:
 
@@ -101,7 +101,7 @@ El boilerplate contiene la siguiente estructura:
     └── analyzer.spec.js
 ```
 
-## 6. Criterios de aceptación mínimos del proyecto
+2.4 Criterios de aceptación mínimos del proyecto
 
 Los criterios de aceptación mínimos del proyecto
 se relacionan con cada objetivo de aprendizaje.
