@@ -77,7 +77,6 @@ resultado en tiempo real a medida que la usuaria escribe su texto:
 2.2 La aplicación permite limpiar el contenido de la caja de texto haciendo
 clic en un botón.
 
-![Text analyzer demo](https://github-production-user-asset-6210df.s3.amazonaws.com/12631491/240650556-988dcd6f-bc46-473b-894c-888a66c9fe2d.gif "Text analyzer demo")----------------------
 
 2.3 Boilerplate
 
@@ -297,7 +296,5 @@ se relacionan con cada objetivo de aprendizaje.
   - [ ] El objeto `analyzer` contiene un método `getAverageWordLength` para
   calcular la longitud media de las palabras en un texto.
 
-### Recursos y temas relacionados
 
-Súmate al canal de Slack [#project-text-analyzer](https://claseslaboratoria.slack.com/archives/C058GP6K9NY)
 

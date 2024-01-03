@@ -42,7 +42,7 @@ const analyzer = {
   getNumberSum: (text) => {
     //TODO: esta función debe retornar la suma de todos los números que se encuentran en el parámetro `text` de tipo `string`.
     let numberSumTotal=0;
-    const numberSum2 = text.trim().split(" ");
+    const numberSum2 = text.trim().split(' ');
     //console.log("Number sum 2: "+numberSum2)
     //console.log(numberSum2)
     for(let i=0;i<numberSum2.length;i++){
@@ -58,6 +58,10 @@ const analyzer = {
       
     return numberSumTotal
   },
-};
+
+
+
+}
+
 
 export default analyzer;
