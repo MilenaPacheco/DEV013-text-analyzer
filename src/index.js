@@ -21,8 +21,8 @@ text.addEventListener("input", function() {
   const  numberCount =analyzer.getNumberCount(text.value);
   document.querySelector("li.estilo2:nth-child(5)").innerHTML = "Números: " + numberCount;
 
-  const numberSumTotal = analyzer.getNumberSum(text.value);
-  document.querySelector("li.estilo2:nth-child(6)").innerHTML = "Suma Números: " + numberSumTotal
+  const numberSum = analyzer.getNumberSum(text.value);
+  document.querySelector("li.estilo2:nth-child(6)").innerHTML = "Suma Números: " + numberSum
 } )
 
 

@@ -3,13 +3,11 @@ const analyzer = {
     //TODO: esta función debe retornar el recuento de palabras que se encuentran en el parámetro `text` de tipo `string`.
     const words = text.trim().split(" ").length;
     return words
-    //console.log(words)
   },
 
   getCharacterCount: (text) => {
     //TODO: esta función debe retornar el recuento de caracteres que se encuentran en el parámetro `text` de tipo `string`.
     const characterCount = text
-    //console.log(characterCount.length)
     return characterCount.length
   },
   getCharacterCountExcludingSpaces: (text) => {
@@ -28,7 +26,6 @@ const analyzer = {
       wordLenght = (parseFloat(characterExcluSpaces)/parseFloat(words));
     }
     return Number(wordLenght.toFixed(2))
-    //console.log(wordLenght);
   },
   getNumberCount: (text) => {
     const  numberCount = text.match(/\b\d+(\.\d+)?\b/g);
@@ -41,26 +38,16 @@ const analyzer = {
   },
   getNumberSum: (text) => {
     //TODO: esta función debe retornar la suma de todos los números que se encuentran en el parámetro `text` de tipo `string`.
-    let numberSumTotal=0;
-    const numberSum2 = text.trim().split(' ');
-    //console.log("Number sum 2: "+numberSum2)
-    //console.log(numberSum2)
-    for(let i=0;i<numberSum2.length;i++){
-      if (Number(numberSum2[i])){
-        numberSum2[i]=parseFloat(numberSum2[i]);
-        //console.log("Array: "+numberSum2)
-        numberSumTotal=parseFloat(numberSum2[i]+numberSumTotal)
-        //console.log(numberSumTotal)
-        //console.log("Suma Array: "+ numberSumTotal)
-
+    const array = text.split(" ");
+    let contador=0;
+    for(let i=0; i<array.length; i++){
+      const elemento = array[i].replace(/\.$/, "");
+      if(Number(elemento) && elemento !== ""){
+        contador = parseFloat(elemento) + contador
       }
     }
-      
-    return numberSumTotal
+    return contador
   },
-
-
-
 }
 
 
