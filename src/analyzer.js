@@ -35,6 +35,7 @@ const analyzer = {
     else{
       return 0; 
     }
+    
   },
   getNumberSum: (text) => {
     //TODO: esta función debe retornar la suma de todos los números que se encuentran en el parámetro `text` de tipo `string`.
